@@ -2,11 +2,8 @@
 
 /**
  * main - causes an infinite loop
- *
  * statement should start at tabstop
- *
  * if statement is missing
- *
  * Return: 0
  */
 int main(void)
@@ -15,12 +12,12 @@ int main(void)
 
 	printf("Infinite loop incoming :(\n");
 
-	 i = 0;
+	i = 0;
 
-	 while (i < 10)
-	{
-		putchar(i);
-	}
+	/*while (i < 10)*/
+	/*{*/
+	/*	putchar(i);*/
+	/*}*/
 
 	printf("Infinite loop avoided! \\o/\n");
 
