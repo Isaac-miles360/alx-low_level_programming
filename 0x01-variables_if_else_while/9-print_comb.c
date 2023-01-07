@@ -11,12 +11,11 @@
  */
 int main(void)
 {
-	int n = 48;
+	int n;
 
-	while (n < 58)
+	for (n = 48; n < 58; n++)
 	{
 		putchar(n);
-		n++;
 		if (n != 57)
 		{
 			putchar(',');
